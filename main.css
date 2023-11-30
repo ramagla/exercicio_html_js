@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 100px;
+    font-weight: bold;
+}
+
+input {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100px;
+    margin-left: 100px;
+    padding: 10px;
+    background-color: #00f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#mensagem {
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+#mensagem.positiva {
+    background-color: #0f0;
+    color: #000;
+}
+
+#mensagem.negativa {
+    background-color: #f00;
+    color: #fff;
+}
+

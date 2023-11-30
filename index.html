@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Formulário de validação</title>
+</head>
+<body>
+    <h1>Formulário de validação</h1>
+    <form id="formulario">
+        <div class="campo">
+            <label for="campoA">Campo A</label>
+            <input type="number" id="campoA" name="campoA" required>
+        </div>
+        <div class="campo">
+            <label for="campoB">Campo B</label>
+            <input type="number" id="campoB" name="campoB" required>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+    <div id="mensagem"></div>
+    <script src="main.js"></script>
+</body>
+</html>     
